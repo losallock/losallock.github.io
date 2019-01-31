@@ -6,12 +6,12 @@
 }
 
 .navLink {
-    font-size: 0.75em;
+    font-size: 0.8em;
 }
 
 .wallpaper {
-    width: 100% !important;
-    height: 10rem;
+    width: 200%;
+    height: auto;
 }
 
 .length {
@@ -24,13 +24,31 @@
     margin: 1rem 0;
 }
 
+.slogan {
+    font-size: 1em;
+}
+
+.begin {
+    display: none;
+    margin-right: 0.75rem;
+}
+
 @media only screen and (min-width: 740px) {
     .logo {
         margin-right: 2rem;
         margin-left: 1.5rem;
     }
 
+    .slogan {
+        font-size: 1em;
+    }
+
+    .begin {
+        display: inline-flex;
+    }
+
     .wallpaper {
+        width: 100%;
         height: 25rem;
     }
 
@@ -41,13 +59,36 @@
 }
 
 @media only screen and (min-width: 1250px) {
+    .slogan {
+        font-size: 1.7em;
+    }
+
+    .begin {
+        display: inline-flex;
+    }
+
     .wallpaper {
         height: 35rem;
+        width: 100%;
     }
+
 }
 
 @media only screen and (min-width: 2000px) {
+    .slogan {
+        font-size: 2.4em;
+    }
+
+    .begin {
+        display: inline-flex;
+    }
+
     .wallpaper {
         height: 45rem;
+        width: 100%;
+    }
+
+    .navLink {
+        font-size: 1.7em;
     }
 }
