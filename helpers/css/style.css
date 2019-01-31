@@ -1,0 +1,53 @@
+* {
+    font-family: 'Poppins', sans-serif !important;
+}
+.black-font {
+    color: black !important;
+}
+
+.navLink {
+    font-size: 1.2em;
+}
+
+.wallpaper {
+    width: 100% !important;
+    height: 17.5rem;
+}
+
+.length {
+    width: 100% !important;
+    padding: 0 !important;
+}
+
+.subheading {
+    text-align: center;
+    margin: 1rem 0;
+}
+
+@media only screen and (min-width: 740px) {
+    .logo {
+        margin-right: 2rem;
+        margin-left: 1.5rem;
+    }
+
+    .wallpaper {
+        height: 25rem;
+    }
+
+    .navLink {
+        margin-right: 3rem;
+        font-size: 1.2em;
+    }
+}
+
+@media only screen and (min-width: 1250px) {
+    .wallpaper {
+        height: 35rem;
+    }
+}
+
+@media only screen and (min-width: 2000px) {
+    .wallpaper {
+        height: 45rem;
+    }
+}
