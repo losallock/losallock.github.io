@@ -1,0 +1,23 @@
+.black-font {
+    color: black !important;
+}
+
+.navLink {
+    font-size: 1.2em;
+}
+
+@media only screen and (min-width: 740px) {
+    .logo {
+        margin-right: 2rem;
+        margin-left: 1.5rem;
+    }
+
+    .navLink {
+        margin-right: 3rem;
+        font-size: 1.2em;
+    }
+}
+
+@media only screen and (min-width: 1000px) {
+
+}
