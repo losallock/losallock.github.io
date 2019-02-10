@@ -112,6 +112,12 @@
     height: 4rem;
 }
 
+.about-text {
+    display: block;
+    padding: 2rem;
+    font-size: 0.9em;
+}
+
 @media only screen and (min-width: 740px) {
     .call {
         min-height: 36rem;
@@ -147,6 +153,10 @@
 }
 
 @media only screen and (min-width: 1250px) {
+    .about-text {
+        font-size: 1.3em;
+    }
+
     .slogan {
         font-size: 1.5em;
     }
@@ -186,6 +196,10 @@
 }
 
 @media only screen and (min-width: 2000px) {
+    .about-text {
+        font-size: 1.6em;
+    }
+
     .slogan {
         font-size: 2em;
     }
