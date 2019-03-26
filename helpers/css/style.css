@@ -49,7 +49,12 @@
 
 .cent {
     text-align: center !important;
-    margin-bottom: 3rem;
+    margin-bottom: 4rem;
+}
+
+.avi {
+    height: 10rem;
+    width: 10rem;
 }
 
 .lg-icon {
