@@ -121,12 +121,15 @@
 }
 
 .about-text {
-    display: block;
-    padding: 2rem;
-    font-size: 0.9em;
+    padding: 0 4rem;
+    margin-bottom: 3rem;
+    text-align: center;
 }
 
 @media only screen and (min-width: 740px) {
+    .about-text {
+        padding: 0 6rem;
+    }
 
     .call {
         min-height: 36rem;
@@ -161,12 +164,14 @@
 }
 
 @media only screen and (min-width: 1250px) {
+
     .service-desc {
         padding: 0 5rem;
     }
 
     .about-text {
         font-size: 1.3em;
+        padding: 0 14rem;
     }
 
     .slogan {
@@ -202,6 +207,7 @@
 @media only screen and (min-width: 2000px) {
     .about-text {
         font-size: 1.6em;
+        padding: 0 38rem;
     }
 
     .slogan {
