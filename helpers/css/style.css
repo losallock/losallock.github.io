@@ -202,6 +202,10 @@
     .pad {
         padding: 3rem 9rem;
     }
+
+    .workers {
+        width: 70%;
+    }
 }
 
 @media only screen and (min-width: 2000px) {
@@ -237,5 +241,9 @@
 
     .pad {
         padding: 3rem 20rem;
+    }
+
+    .workers {
+        width: 50%;
     }
 }
